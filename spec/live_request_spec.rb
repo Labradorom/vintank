@@ -1,12 +1,12 @@
 ## This file is used to provide a quick way for me to test requests.
 ## It should not be checked in un-commented
 #
-#require 'cruvee'
+#require 'vintank'
 #require 'rspec'
 #
-#describe Cruvee do
+#describe Vintank do
 #  before do
-#    @client = Cruvee::Client.new(:format => :json, :app_id => YOUR_APP_ID, :secret => YOUR_SECRET)
+#    @client = Vintank::Client.new(:format => :json, :app_id => YOUR_APP_ID, :secret => YOUR_SECRET)
 #  end
 #
 #  it "should search" do
