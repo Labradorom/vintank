@@ -1,3 +1,4 @@
+require 'vintank/version'
 require 'vintank/error'
 require 'vintank/configuration'
 require 'vintank/api'

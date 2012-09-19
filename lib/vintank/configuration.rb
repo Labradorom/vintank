@@ -11,11 +11,11 @@ module Vintank
       :secret,
       :endpoint,
       :format,
-      :user_agent].freeze
+      :user_agent]
 
     # An array of valid request/response formats
     VALID_FORMATS = [
-      :json].freeze
+      :json]
 
     # The adapter that will be used to connect if none is set
     #
@@ -31,7 +31,7 @@ module Vintank
     # The endpoint that will be used to connect if none is set
     #
     # @note This is configurable in case you want to use HTTP instead of HTTPS, specify a different API version, or use a Cruvee-compatible endpoint.
-    DEFAULT_ENDPOINT = 'http://apiv1.cruvee.com/'.freeze
+    DEFAULT_ENDPOINT = 'http://apiv1.cruvee.com/'
 
     # The response format appended to the path and sent in the 'Accept' header if none is set
     #
@@ -39,7 +39,7 @@ module Vintank
     DEFAULT_FORMAT = :json
 
     # The user agent that will be sent to the API endpoint if none is set
-    DEFAULT_USER_AGENT = "Vintank Ruby Gem #{Vintank::VERSION}".freeze
+    DEFAULT_USER_AGENT = "Vintank Ruby Gem #{Vintank::VERSION}"
 
     # @private
     attr_accessor *VALID_OPTIONS_KEYS

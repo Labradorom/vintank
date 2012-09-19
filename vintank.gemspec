@@ -1,5 +1,7 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/vintank/version', __FILE__)
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'vintank/version'
 
 Gem::Specification.new do |s|
   s.add_development_dependency('rake', '~> 0.8')
@@ -14,7 +16,7 @@ Gem::Specification.new do |s|
   s.authors = ["Brian Romanko - BigBig Bomb", "Mike Gunderloy - Labrador Omnimedia"]
   s.description = %q{Ruby wrapper for the Vintank API}
   s.email = %q{brian@bigbigbomb.com mikeg1@labradorom.com}
-  s.executables = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  s.executables = s.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   s.files = `git ls-files`.split("\n")
   s.homepage = %q{}
   s.name = %q{vintank}
@@ -22,7 +24,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.required_rubygems_version = Gem::Requirement.new(">= 1.5.2") if s.respond_to? :required_rubygems_version=
   s.summary = %q{Ruby wrapper for the Vintank API}
-  s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.version = '0.3.0'
+  s.test_files = s.files.grep(%r{^(test|spec|features)/})
+  s.version = Vintank::VERSION
 end
 

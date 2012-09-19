@@ -1,7 +1,4 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
-group :development do
-  gem "jeweler", "~> 1.5.2"
-end
-
+# Specify your gem's dependencies in vintank.gemspec
 gemspec
