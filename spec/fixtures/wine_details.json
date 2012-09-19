@@ -1,0 +1,165 @@
+{
+    "ABV": 13.2,
+    "JSONLink": "http://apiv1.cruvee.com/wines/124000200077801200600100.js",
+    "PH": null,
+    "accolades": [
+    ],
+    "brand": {
+        "JSONLink": "http://apiv1.cruvee.com/brands/00077801.js",
+        "directoryPageLink": "http://directory.cruvee.com/wineries/Black-Cloud/00077801",
+        "feedLink": "http://apiv1.cruvee.com/feeds/brands/00077801",
+        "name": "Black Cloud",
+        "shortLink": "http://cruvee.com/b/44b",
+        "ynId": "urn:ynbid:00077801"
+    },
+    "composition": [
+        {
+            "harvestBrix": null,
+            "harvestDate": null,
+            "percentage": 100,
+            "varietal":             {
+                "JSONLink": "http://apiv1.cruvee.com/varieties/00114.js",
+                "name": "Pinot Noir",
+                "ynId": "urn:ynvid:00114"
+            },
+            "vineyard": null
+        }
+    ],
+    "declaredVariety": {
+        "JSONLink": "http://apiv1.cruvee.com/varieties/00114.js",
+        "name": "Pinot Noir",
+        "ynId": "urn:ynvid:00114"
+    },
+    "declaredVineyard": null,
+    "digitalMedia": [
+        {
+            "URL": "http://assets.cruvee.com/wines/482e70e96bf74ef2a76d52dd6f00df9f_m.jpg",
+            "assetType": "IMAGE",
+            "largeImageURL": "http://assets.cruvee.com/wines/482e70e96bf74ef2a76d52dd6f00df9f_l.jpg",
+            "mediumImageURL": "http://assets.cruvee.com/wines/482e70e96bf74ef2a76d52dd6f00df9f_m.jpg",
+            "mimeType": "image/jpeg",
+            "name": null,
+            "smallImageURL": "http://assets.cruvee.com/wines/482e70e96bf74ef2a76d52dd6f00df9f_s.jpg",
+            "thumbnailImageURL": "http://assets.cruvee.com/wines/482e70e96bf74ef2a76d52dd6f00df9f_t.jpg",
+            "wineAssetType": "LABEL_FRONT"
+        },
+        {
+            "URL": "http://assets.cruvee.com/wines/371f9f7ab6e24373a42c19a7793fb172_m.jpg",
+            "assetType": "IMAGE",
+            "largeImageURL": "http://assets.cruvee.com/wines/371f9f7ab6e24373a42c19a7793fb172_l.jpg",
+            "mediumImageURL": "http://assets.cruvee.com/wines/371f9f7ab6e24373a42c19a7793fb172_m.jpg",
+            "mimeType": "image/jpeg",
+            "name": null,
+            "smallImageURL": "http://assets.cruvee.com/wines/371f9f7ab6e24373a42c19a7793fb172_s.jpg",
+            "thumbnailImageURL": "http://assets.cruvee.com/wines/371f9f7ab6e24373a42c19a7793fb172_t.jpg",
+            "wineAssetType": "BOTTLE_SHOT"
+        },
+        {
+            "URL": "http://assets.cruvee.com/wines/45638928a3af494eba7296c7b5cbf568_s.gif",
+            "assetType": "IMAGE",
+            "largeImageURL": null,
+            "mediumImageURL": null,
+            "mimeType": "image/gif",
+            "name": null,
+            "smallImageURL": "http://assets.cruvee.com/wines/45638928a3af494eba7296c7b5cbf568_s.gif",
+            "thumbnailImageURL": "http://assets.cruvee.com/wines/45638928a3af494eba7296c7b5cbf568_t.gif",
+            "wineAssetType": "QR_CODE"
+        }
+    ],
+    "directoryPageLink": "http://directory.cruvee.com/wines/2006-Black-Cloud-Pinot-Noir-Black-Cloud-Okanagan-Valley/124000200077801200600100",
+    "elevage": [
+        {
+            "monthsInVessel": 14,
+            "percentage": null,
+            "vesselCondition": null,
+            "vesselSizeLiters": 228,
+            "vesselType": "FRENCH_OAK"
+        }
+    ],
+    "entityType": "WINE",
+    "filtered": false,
+    "fined": false,
+    "kosher": false,
+    "labelImageBackURL": null,
+    "labelImageFrontURL": "http://assets.cruvee.com/wines/482e70e96bf74ef2a76d52dd6f00df9f_t.jpg",
+    "lastUpdateDate": 1277510409000,
+    "legalDesignation": null,
+    "marketingDesignation": "Black Cloud",
+    "name": "2006 Black Cloud Pinot Noir Black Cloud Okanagan Valley",
+    "products": [
+        {
+            "GTIN": null,
+            "JSONLink": "http://apiv1.cruvee.com/products/124000200077801200600100036.js",
+            "SSCC": null,
+            "bottleDate": null,
+            "buyURL": null,
+            "caseDimensions": null,
+            "casesPerPallet": null,
+            "closure": "SYNTHETIC",
+            "containerMaterial": "GLASS",
+            "containerShape": "BOTTLE",
+            "containerSize": "750mL",
+            "containerType": "BOTTLE_750ML",
+            "detailURL": null,
+            "directoryPageLink": "http://directory.cruvee.com/wines/2006-Black-Cloud-Pinot-Noir-Black-Cloud-Okanagan-Valley/124000200077801200600100",
+            "entityType": "WINE_PRODUCT",
+            "labelImageFrontURL": "http://assets.cruvee.com/wines/482e70e96bf74ef2a76d52dd6f00df9f_t.jpg",
+            "name": "2006 Black Cloud Pinot Noir Black Cloud Okanagan Valley, 750mL",
+            "releaseDate": 1233475200000,
+            "releaseQuantity": 280,
+            "releaseQuantityType": "CASES",
+            "soldOut": false,
+            "suggestedRetailPrice":             {
+                "currencyAmount": 19.99,
+                "currencyCode": "CAD"
+            },
+            "unitDimensions": null,
+            "unitsPerCase": null,
+            "wineJSONLink": "http://apiv1.cruvee.com/wines/124000200077801200600100.js",
+            "ynId": "urn:ynid:124000200077801200600100036"
+        }
+    ],
+    "qualityDesignation": null,
+    "region": {
+        "JSONLink": "http://apiv1.cruvee.com/regions/1240002.js",
+        "feedLink": "http://apiv1.cruvee.com/feeds/regions/1240002",
+        "lineage": [
+            {
+                "JSONLink": "http://apiv1.cruvee.com/regions/1240012.js",
+                "feedLink": "http://apiv1.cruvee.com/feeds/regions/1240012",
+                "name": "Canada",
+                "ynId": "urn:ynrid:1240012"
+            },
+            {
+                "JSONLink": "http://apiv1.cruvee.com/regions/1240005.js",
+                "feedLink": "http://apiv1.cruvee.com/feeds/regions/1240005",
+                "name": "British Columbia",
+                "ynId": "urn:ynrid:1240005"
+            }
+        ],
+        "name": "Okanagan Valley",
+        "ynId": "urn:ynrid:1240002"
+    },
+    "residualSugar": null,
+    "shortLink": "http://cruvee.com/w/2",
+    "sulfitesAdded": true,
+    "text": [
+        {
+            "description": null,
+            "harvestNotes": null,
+            "locale":             {
+                "country": "US",
+                "language": "en"
+            },
+            "tastingNotes": null,
+            "vineyardNotes": null,
+            "vintageNotes": null,
+            "winemakerNotes": null
+        }
+    ],
+    "titratableAcidity": null,
+    "vintage": "2006",
+    "wineType": "RED",
+    "winemaker": "Bradley Cooper",
+    "ynId": "urn:ynwid:124000200077801200600100"
+}
