@@ -1,6 +1,8 @@
-= cruvee
+= vintank
 
-Description goes here.
+API integration gem for the VinTank API.
+
+See http://developer.cruvee.com/ for API details.
 
 == Contributing to vintank
 
@@ -16,4 +18,8 @@ Description goes here.
 
 Copyright (c) 2012 Labrador Omnimedia. See LICENSE.txt for
 further details.
+
+== Acknowledgements
+
+Original source based on cruvee gem, copyright (c) 2011 Brian Romanko.
 
